@@ -1,3 +1,7 @@
-p{ background-color:black; }
-p.temp{ font-family:verdana; background-color:beige; color:green; }
-h1 span{ color: #ff00cc }
+p{ background-color:black; font-size:16pt; } /* default font size is 16px. font-weight could be used for bolld. font-sytle can be used for italics */
+p.temp{ text-align: center; font-family:verdana; background-color:beige; color:green; } /* should include a list inside the font family. first one with high priority. */
+h1 span{ color: #ff00cc; font-weight:bold; font-style: italic; } /* line height is used for spacing between lines. text-indent:20px;*/
+.code{ width:800px; margin:auto 0; background-color:grey; font-family:consolas; }
+.function{color:aqua;}
+.functionName{color:red;}
+.keyword{color:blue;}

@@ -1,0 +1,40 @@
+.page{
+    width: 1000px;
+    background-color:black;
+    color: white;
+    border: 20px solid aqua;  /*size of border, style, color */
+    /*display:none;     makes everything invisible*/
+    /*visibility : hidden; makes it hidden yet still takes up place on webpage.*/ 
+    /*opacity : 0; for tranparency.*/ 
+
+    margin: 0 auto 0 auto; /* margin top:0 , right:auto, bottom:0, left - auto;*/
+    padding:10px;
+}
+/**
+* box-shadow
+* border-radius
+* border-width
+* border-style
+* border-colors
+* 
+* position:relative; move blank to its relative position. transformation
+* left: 100px;
+*
+* position:absolute;  absolutely positioned.
+*  left:0; 
+*  top:0;   this makes the position go all the way to the top left and STAY THERE...
+*
+* position : fixed; keeps the thing put on screen, even when scrolling, never leaves position. absolute stays in one place but doesnt move with the page.
+*
+*/
+
+/*
+* float:left; try to float to left, if theres no more room, go onto next line
+*   
+* float:right; does the opposite. but if you have boxes from a,b,c,d in that order using float:left, the new order will be d,c,b,a.
+*
+* margin-left:10; creates gaps to the left of each box.
+*
+* overflow: auto; sometimes, the boxes could get out of position this adjusts the background. 
+* overflow: hidden; this sorta overlaps the background.
+*/

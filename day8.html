@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>LOGO COMPANY</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="styles.css/day8.css" type="text/css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+            function f()
+            {
+                //document.getElementById("x").innerHTML = "Goodbye";
+                var a = document.getElementById("a").value;
+                var b = document.getElementById("b").value;
+                var c = parseInt(a) + parseInt(b);
+                document.getElementById("c").innerHTML = c;
+            }
+
+            window.onload = function() {
+                document.getElementById("c").innerHTML = "hello";
+                document.getElementById("calculate").onclick = f;
+            };
+
+            function g()
+            {
+                var vDice = Math.floor(Math.random() * 6) + 1;
+                //document.getElementById("dice_img").src = ("src/" + vDice + ".jpg");
+                document.getElementById("dice").innerHTML = vDice;
+                document.getElementById("dice").style.color = "red";
+            }
+
+            var r = (function h(a, b)
+            {
+                return a + b;
+            })(1,2);
+            
+            //alert(r);
+
+
+    </script>
+  </head>
+  <body>
+
+        <input id="a" /> + <input id="b" /> = <span id="c"></span>
+        <br />
+        <input id="calculate" type="button" value="Calculate" />
+
+        <hr/>
+        <span id="dice"></span><br />
+        <input type="button" value="Roll" onclick="g();" /> 
+
+  </body>
+  </html> 
